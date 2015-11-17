@@ -1,12 +1,13 @@
 {
 	"type": "package",
-    "name": "icontact/icontact-api-php",
+    "name": "mizanur/icontact-api-php",
     "description": "iContact SDK for PHP",
 	"homepage": "https://github.com/mizanur-rahman/icontact-api-php",
 	"authors": [
         {
             "name": "Mizanur Rahman",
-            "homepage": "https://github.com/mizanur-rahman/icontact-api-php"
+            "homepage": "https://github.com/mizanur-rahman/icontact-api-php",
+			"email" : "mizan3008@gmail.com"
         }
     ],
     "require": {
