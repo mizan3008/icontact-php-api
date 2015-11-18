@@ -12,7 +12,6 @@
             "role": "Developer"
         }
     ],
-	"minimum-stability": "stable",
     "require": {
         "php": ">=5.3.0"
     },
@@ -20,5 +19,7 @@
         "psr-4": {
             "iContact\\": "src/"
         }
-    }
+    },
+	"minimum-stability": "dev",
+	"prefer-stable": true
 }
