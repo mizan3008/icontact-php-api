@@ -1,8 +1,8 @@
 {
     "name": "mizanur/icontact-api-php",
     "type": "library",
-	"version": "0.1",
-    "description": "iContact SDK for PHP",
+	"version": "2.0",
+    "description": "iContact API for PHP",
     "keywords": ["icontact-api-php"],
     "homepage": "https://github.com/mizanur-rahman/icontact-api-php",
     "license": "MIT",
@@ -18,9 +18,7 @@
 		"ext-curl": "*"
     },
     "autoload": {
-        "psr-4": {
-            "Mizanur\\iContact\\": "src/"
-        }
+        "psr-0": { "iContact": "src/" }
     },
 	"minimum-stability": "dev",
 	"prefer-stable": true

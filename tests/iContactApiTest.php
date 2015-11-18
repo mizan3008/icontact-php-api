@@ -1,27 +1,5 @@
-iContact API
-=============
-
-Super-simple, minimum abstraction iContact API v2 wrapper, in PHP.
-
-Requires PHP 5.3 and a pulse.
-
-Installation
-------------
-
-You can install the mailchimp-api using Composer:
-
-```
-composer require mizanur/icontact-api-php
-```
-
-Examples
---------
-
-use this on top of your class:
-
-```
+<?php
 use iContact\iContactApi;
-```
 
 // Give the API your information
 iContactApi::getInstance()->setConfig(array(
@@ -66,6 +44,3 @@ try {
 	// Grab the last raw response data
 	var_dump($oiContact->getLastResponse());
 }
-
-
-*Note for contributors:* This is not Code Golf.
