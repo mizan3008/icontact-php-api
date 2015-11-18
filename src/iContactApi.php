@@ -1,4 +1,4 @@
-<?php namespace Mizanur\iContactApi;
+<?php
 /**
  * @name iContactApi
  * @package iContact
