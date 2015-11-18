@@ -33,9 +33,7 @@ iContactApi::getInstance()->setConfig(array(
 // Store the singleton
 
 $oiContact = iContactApi::getInstance();
-
 // Try to make the call(s)
-
 try {
 	//  are examples on how to call the  iContact PHP API class
 	// Grab all contacts
