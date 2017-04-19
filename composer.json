@@ -1,7 +1,6 @@
 {
     "name": "mizanur/icontact-api-php",
     "type": "library",
-	"version": "2.0",
     "description": "iContact API for PHP",
     "keywords": ["icontact-api-php"],
     "homepage": "https://github.com/mizanur-rahman/icontact-api-php",
