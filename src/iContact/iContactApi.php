@@ -460,7 +460,7 @@ class iContactApi {
 		// Check for set errors
 		if (!empty($this->aErrors)) {
 			// Throw a new exception
-			throw new Exception('Errors have occurred and the system cannot continue.  Use getErrors() for details.');
+			throw new \Exception('Errors have occurred and the system cannot continue.  Use getErrors() for details.');
 		}
 		// Check for a total
 		if (!empty($aResponse->total)) {
