@@ -8,7 +8,7 @@ Requires PHP 5.3 and a pulse.
 Installation
 ------------
 
-You can install the mailchimp-api using Composer:
+You can install the iContact-api using Composer:
 
 ```
 composer require mizanur/icontact-api-php
@@ -24,16 +24,21 @@ use iContact\iContactApi;
 ```
 
 // Give the API your information
+```
 iContactApi::getInstance()->setConfig(array(
 	'appId'       => '', 
 	'apiPassword' => '', 
 	'apiUsername' => ''
 ));
+```
 
 // Store the singleton
-
+```
 $oiContact = iContactApi::getInstance();
+```
+
 // Try to make the call(s)
+```
 try {
 	//  are examples on how to call the  iContact PHP API class
 	// Grab all contacts
@@ -67,6 +72,6 @@ try {
 	// Grab the last raw response data
 	var_dump($oiContact->getLastResponse());
 }
-
+```
 
 *Note for contributors:* This is not Code Golf.
