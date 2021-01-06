@@ -629,7 +629,7 @@ class iContactApi {
 		// Make sure the contact isn't empty
 		if (!empty($aContact)) {
 			// Make the call
-			$oContact = $this->makeCall("/a/{$this->setAccountId()}/c/{$this->setClientFolderId()}/contacts/{$iContactId}", 'POST', array($aContact), 'contact');
+			$oContact = $this->makeCall("/a/{$this->setAccountId()}/c/{$this->setClientFolderId()}/contacts/{$iContactId}", 'POST', $aContact, 'contact');
 			// Return the contact
 			return $oContact;
 		}
